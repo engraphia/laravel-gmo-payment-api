@@ -1,13 +1,13 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Test\Concerns;
+namespace Prum\LaravelGmoPaymentApi\Test\Concerns;
 
 use Illuminate\Support\Facades\Http;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Exceptions\GmoApiException;
+use Prum\LaravelGmoPaymentApi\Exceptions\GmoApiException;
 
 /**
  * Trait GmoCvs
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Test\Concerns
+ * @package Prum\LaravelGmoPaymentApi\Test\Concerns
  */
 trait GmoCvs
 {

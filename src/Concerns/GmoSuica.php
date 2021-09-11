@@ -1,10 +1,10 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Concerns;
+namespace Prum\LaravelGmoPaymentApi\Concerns;
 
 /**
  * Class GmoSuica
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Concerns
+ * @package Prum\LaravelGmoPaymentApi\Concerns
  */
 trait GmoSuica
 {

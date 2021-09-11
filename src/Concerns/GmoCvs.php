@@ -1,11 +1,11 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Concerns;
+namespace Prum\LaravelGmoPaymentApi\Concerns;
 
 /**
  * コンビニ決済関連メソッド
  * Trait GmoCvs
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Concerns
+ * @package Prum\LaravelGmoPaymentApi\Concerns
  */
 trait GmoCvs
 {

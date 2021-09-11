@@ -1,14 +1,14 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Providers;
+namespace Prum\LaravelGmoPaymentApi\Providers;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\ServiceProvider;
-use ShibuyaKosuke\LaravelGmoPaymentApi\GmoPaymentApi;
+use Prum\LaravelGmoPaymentApi\GmoPaymentApi;
 
 /**
  * Class GmoServiceProvider
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Providers
+ * @package Prum\LaravelGmoPaymentApi\Providers
  */
 class GmoServiceProvider extends ServiceProvider
 {
@@ -17,7 +17,7 @@ class GmoServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->app->bind('shibuyakosuke.gmo_payment_api', function ($app) {
+        $this->app->bind('Prum.gmo_payment_api', function ($app) {
             $http = new Http();
             return new GmoPaymentApi($app['config'], $http);
         });
@@ -44,7 +44,7 @@ class GmoServiceProvider extends ServiceProvider
     public function provides(): array
     {
         return [
-            'shibuyakosuke.gmo_payment_api'
+            'Prum.gmo_payment_api'
         ];
     }
 }

@@ -1,11 +1,11 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Concerns;
+namespace Prum\LaravelGmoPaymentApi\Concerns;
 
 /**
  * クレジットカード決済関連メソッド
  * Trait GmoCreditCard
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Concerns
+ * @package Prum\LaravelGmoPaymentApi\Concerns
  */
 trait GmoCreditCard
 {

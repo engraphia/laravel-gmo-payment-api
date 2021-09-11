@@ -1,6 +1,6 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Concerns;
+namespace Prum\LaravelGmoPaymentApi\Concerns;
 
 trait GmoUnionpay
 {

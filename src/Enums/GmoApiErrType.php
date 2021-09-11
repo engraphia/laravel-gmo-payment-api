@@ -1,13 +1,13 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Enums;
+namespace Prum\LaravelGmoPaymentApi\Enums;
 
 use BenSampo\Enum\Enum;
 use Illuminate\Support\Arr;
 
 /**
  * Class GmoApiErrType
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Enums
+ * @package Prum\LaravelGmoPaymentApi\Enums
  */
 final class GmoApiErrType extends Enum
 {

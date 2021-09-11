@@ -11,7 +11,7 @@ composer require prum/laravel-gmo-payment-api
 ## Publish config file.
 
 ```bash
-php artisan vendor:publish --provider="ShibuyaKosuke\LaravelGmoPaymentApi\Providers\GmoServiceProvider"
+php artisan vendor:publish --provider="Prum\LaravelGmoPaymentApi\Providers\GmoServiceProvider"
 ```
 
 ## Append .env 

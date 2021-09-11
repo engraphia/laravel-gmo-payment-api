@@ -1,11 +1,11 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Concerns;
+namespace Prum\LaravelGmoPaymentApi\Concerns;
 
 /**
  * 会員・カード関連メソッド
  * Trait GmoApiMember
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Concerns
+ * @package Prum\LaravelGmoPaymentApi\Concerns
  */
 trait GmoApiMember
 {

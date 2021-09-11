@@ -1,16 +1,16 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Test;
+namespace Prum\LaravelGmoPaymentApi\Test;
 
 use Illuminate\Support\Facades\Http;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Facades\GmoApi;
-use ShibuyaKosuke\LaravelGmoPaymentApi\GmoPaymentApi;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Providers\GmoServiceProvider;
+use Prum\LaravelGmoPaymentApi\Facades\GmoApi;
+use Prum\LaravelGmoPaymentApi\GmoPaymentApi;
+use Prum\LaravelGmoPaymentApi\Providers\GmoServiceProvider;
 
 /**
  * Class TestCase
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Test
+ * @package Prum\LaravelGmoPaymentApi\Test
  */
 abstract class TestCase extends OrchestraTestCase
 {

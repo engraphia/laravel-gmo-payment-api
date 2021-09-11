@@ -1,12 +1,12 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Enums;
+namespace Prum\LaravelGmoPaymentApi\Enums;
 
 use BenSampo\Enum\Enum;
 
 /**
  * Class GmoApiResponseType
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Enums
+ * @package Prum\LaravelGmoPaymentApi\Enums
  */
 final class GmoApiResponseType extends Enum
 {

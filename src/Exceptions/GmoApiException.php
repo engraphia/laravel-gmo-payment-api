@@ -1,10 +1,10 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Exceptions;
+namespace Prum\LaravelGmoPaymentApi\Exceptions;
 
 /**
  * Class GmoApiException
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Exceptions
+ * @package Prum\LaravelGmoPaymentApi\Exceptions
  */
 class GmoApiException extends \Exception
 {

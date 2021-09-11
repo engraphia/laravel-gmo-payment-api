@@ -30,17 +30,17 @@
     },
     "autoload": {
         "psr-4": {
-            "ShibuyaKosuke\\LaravelGmoPaymentApi\\": "src/",
-            "ShibuyaKosuke\\LaravelGmoPaymentApi\\Test\\": "tests/"
+            "Prum\\LaravelGmoPaymentApi\\": "src/",
+            "Prum\\LaravelGmoPaymentApi\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ShibuyaKosuke\\LaravelGmoPaymentApi\\Providers\\GmoServiceProvider"
+                "Prum\\LaravelGmoPaymentApi\\Providers\\GmoServiceProvider"
             ],
             "aliases": {
-                "GmoApi": "ShibuyaKosuke\\LaravelGmoPaymentApi\\Facades\\GmoApi"
+                "GmoApi": "Prum\\LaravelGmoPaymentApi\\Facades\\GmoApi"
             }
         }
     }

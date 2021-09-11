@@ -1,14 +1,14 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Test;
+namespace Prum\LaravelGmoPaymentApi\Test;
 
 use Illuminate\Support\Facades\Http;
-use ShibuyaKosuke\LaravelGmoPaymentApi\GmoPaymentApi;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Test\Concerns\GmoCvs;
+use Prum\LaravelGmoPaymentApi\GmoPaymentApi;
+use Prum\LaravelGmoPaymentApi\Test\Concerns\GmoCvs;
 
 /**
  * Class GmoPaymentApiTest
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Test
+ * @package Prum\LaravelGmoPaymentApi\Test
  */
 class GmoPaymentApiTest extends TestCase
 {

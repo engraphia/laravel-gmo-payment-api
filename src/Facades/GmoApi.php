@@ -1,13 +1,13 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi\Facades;
+namespace Prum\LaravelGmoPaymentApi\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use ShibuyaKosuke\LaravelGmoPaymentApi\GmoPaymentApi;
+use Prum\LaravelGmoPaymentApi\GmoPaymentApi;
 
 /**
  * Class GmoApi
- * @package ShibuyaKosuke\LaravelGmoPaymentApi\Facades
+ * @package Prum\LaravelGmoPaymentApi\Facades
  *
  * @see GmoPaymentApi::class
  *
@@ -61,6 +61,6 @@ class GmoApi extends Facade
      */
     public static function getFacadeAccessor()
     {
-        return 'shibuyakosuke.gmo_payment_api';
+        return 'Prum.gmo_payment_api';
     }
 }

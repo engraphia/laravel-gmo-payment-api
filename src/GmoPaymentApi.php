@@ -1,25 +1,25 @@
 <?php
 
-namespace ShibuyaKosuke\LaravelGmoPaymentApi;
+namespace Prum\LaravelGmoPaymentApi;
 
 use GuzzleHttp\Promise\PromiseInterface;
 use Illuminate\Config\Repository;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Concerns\GmoApiMember;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Concerns\GmoCreditCard;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Concerns\GmoCvs;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Concerns\GmoEdy;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Concerns\GmoNetid;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Concerns\GmoSuica;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Concerns\GmoWebmoney;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Enums\GmoApiErrType;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Enums\GmoApiResponseType;
-use ShibuyaKosuke\LaravelGmoPaymentApi\Exceptions\GmoApiException;
+use Prum\LaravelGmoPaymentApi\Concerns\GmoApiMember;
+use Prum\LaravelGmoPaymentApi\Concerns\GmoCreditCard;
+use Prum\LaravelGmoPaymentApi\Concerns\GmoCvs;
+use Prum\LaravelGmoPaymentApi\Concerns\GmoEdy;
+use Prum\LaravelGmoPaymentApi\Concerns\GmoNetid;
+use Prum\LaravelGmoPaymentApi\Concerns\GmoSuica;
+use Prum\LaravelGmoPaymentApi\Concerns\GmoWebmoney;
+use Prum\LaravelGmoPaymentApi\Enums\GmoApiErrType;
+use Prum\LaravelGmoPaymentApi\Enums\GmoApiResponseType;
+use Prum\LaravelGmoPaymentApi\Exceptions\GmoApiException;
 
 /**
  * Class GmoPaymentApi
- * @package ShibuyaKosuke\LaravelGmoPaymentApi
+ * @package Prum\LaravelGmoPaymentApi
  */
 class GmoPaymentApi
 {
