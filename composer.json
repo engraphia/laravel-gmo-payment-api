@@ -1,5 +1,5 @@
 {
-    "name": "shibuyakosuke/laravel-gmo-payment-api",
+    "name": "prum/laravel-gmo-payment-api",
     "description": "laravel-gmo-payment-api",
     "type": "library",
     "license": "MIT",
@@ -10,8 +10,8 @@
     ],
     "authors": [
         {
-            "name": "ShibuyaKosuke",
-            "email": "kosukeshibuya@gmail.com"
+            "name": "HarueMurakami",
+            "email": "harue.murakami@prum.jp"
         }
     ],
     "require": {
@@ -30,17 +30,17 @@
     },
     "autoload": {
         "psr-4": {
-            "ShibuyaKosuke\\LaravelGmoPaymentApi\\": "src/",
-            "ShibuyaKosuke\\LaravelGmoPaymentApi\\Test\\": "tests/"
+            "Prum\\LaravelGmoPaymentApi\\": "src/",
+            "Prum\\LaravelGmoPaymentApi\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ShibuyaKosuke\\LaravelGmoPaymentApi\\Providers\\GmoServiceProvider"
+                "Prum\\LaravelGmoPaymentApi\\Providers\\GmoServiceProvider"
             ],
             "aliases": {
-                "GmoApi": "ShibuyaKosuke\\LaravelGmoPaymentApi\\Facades\\GmoApi"
+                "GmoApi": "Prum\\LaravelGmoPaymentApi\\Facades\\GmoApi"
             }
         }
     }
